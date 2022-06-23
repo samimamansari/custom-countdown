@@ -48,7 +48,7 @@ function updateDOM(){
         }
         else{
             // Else, show countdown in progreas
-            countdownElTitle.textContent = `${countdownElTitle}`;
+            countdownElTitle.textContent = `${countdownTitle}`;
             timeElements[0].textContent = `${days}`;
             timeElements[1].textContent = `${hours}`;
             timeElements[2].textContent = `${minutes}`;
